@@ -1,6 +1,6 @@
 {
   "name": "@watergis/postgis2vectortiles",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is a simple tool to create Mapbox Vectortiles under particular directory from PostGIS database",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
