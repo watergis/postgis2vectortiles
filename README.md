@@ -1,5 +1,5 @@
 # postgis2vectortiles
-<!-- ![](https://github.com/watergis/postgis2vectortiles/workflows/Node.js%20Package/badge.svg) -->
+![](https://github.com/watergis/postgis2vectortiles/workflows/Node.js%20Package/badge.svg)
 ![GitHub](https://img.shields.io/github/license/watergis/postgis2vectortiles)
 
 This is a simple tool to create Mapbox Vectortiles under particular directory from PostGIS database
