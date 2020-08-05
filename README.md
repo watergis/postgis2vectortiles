@@ -21,16 +21,6 @@ $ make -j
 $ make install
 ```
 
-### mbutil
-This module uses [mbutil](https://github.com/mapbox/mbutil) to extract mvt files from mbtiles. Please make sure install it on your python3.
-
-for MacOS & Ubuntu
-```
-git clone git://github.com/mapbox/mbutil.git
-cd mbutil
-sudo python setup.py install
-```
-
 ### main module
 ```
 npm install @watergis/postgis2vectortiles
