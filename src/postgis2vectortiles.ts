@@ -2,19 +2,11 @@ import { postgis2mbtiles } from '@watergis/postgis2mbtiles';
 import { Mbtiles2Pbf, FileExtension } from '@watergis/mbtiles2pbf';
 
 type Config = {
-  db: DbConfig; //DB Settings
+  db: any; //DB Settings
   mbtiles: string; //File path for mbtiles of vectortiles
   minzoom: number; //Min zoom level given to tippecanoe
   maxzoom: number; //Max zoom level given to tippecanoe
   layers: Layer[]; //List of layer to define SQL for GeoJSON
-};
-
-type DbConfig = {
-  user: string;
-  password: string;
-  host: string;
-  post: string;
-  database: string;
 };
 
 type Layer = {

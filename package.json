@@ -1,6 +1,6 @@
 {
   "name": "@watergis/postgis2vectortiles",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "This is a simple tool to create Mapbox Vectortiles under particular directory from PostGIS database",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,18 +30,18 @@
   },
   "homepage": "https://github.com/watergis/postgis2vectortiles#readme",
   "devDependencies": {
-    "@types/node": "^14.0.23",
-    "@typescript-eslint/eslint-plugin": "^3.6.1",
-    "@typescript-eslint/parser": "^3.6.1",
+    "@types/node": "^14.11.1",
+    "@typescript-eslint/eslint-plugin": "^3.10.1",
+    "@typescript-eslint/parser": "^3.10.1",
     "dotenv": "^8.2.0",
-    "eslint": "^7.4.0",
+    "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5",
+    "prettier": "^2.1.2",
     "typescript": "^3.9.6"
   },
   "dependencies": {
     "@watergis/mbtiles2pbf": "^0.2.1",
-    "@watergis/postgis2mbtiles": "^0.1.4"
+    "@watergis/postgis2mbtiles": "^0.1.5"
   }
 }
